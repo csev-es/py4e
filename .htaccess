@@ -1,3 +1,14 @@
+# Chrome Private Prefetch Proxy: allow prefetch of public course pages
+# (must be application/trafficadvice+json, not application/json).
+<Files "traffic-advice">
+    <IfModule mod_mime.c>
+        ForceType application/trafficadvice+json
+    </IfModule>
+    <IfModule mod_headers.c>
+        Header set Cache-Control "public, max-age=86400"
+    </IfModule>
+</Files>
+
 #
 # Depending on your Apache web server, you may some tweaks
 #
