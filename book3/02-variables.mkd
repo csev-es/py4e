@@ -250,8 +250,8 @@ Operadores y operandos
 cálculos, como la suma o la multiplicación. Los valores a los cuales se
 aplican esos operadores reciben el nombre de *operandos*.
 
-Los operadores `+`, `-`, , `/`, y
-`\*` realizan sumas, restas, multiplicaciones, divisiones y
+Los operadores `+`, `-`, `*`, `/`, y
+`**` realizan sumas, restas, multiplicaciones, divisiones y
 exponenciación (elevar un número a una potencia), como se muestra en los
 ejemplos siguientes:
 
